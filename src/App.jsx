@@ -5,10 +5,12 @@ function App() {
  let [color,setColor]=useState("olive");
 
   return (
+
   <div className='h-screen w-full duration-200'  style={{backgroundColor:color}}>
-<h3 className='main-dev text-center font-bold text-xl '>BackgroundChanger</h3>
-<div className='fixed flex flex-wrap bottom-12 inset-x-0 px-2 justify-center'>
-<div className='flex flex-wrap justify-center bg-white gap-3 py-2 px-3 rounded-xl'>
+
+  <h3 className='main-dev text-center font-bold text-xl '>BackgroundChanger</h3>
+  <div className='fixed flex flex-wrap bottom-12 inset-x-0 px-2 justify-center'>
+  <div className='flex flex-wrap justify-center bg-white gap-3 py-2 px-3 rounded-xl'>
 
     <button onClick={()=>setColor("red")} className='box' style={{backgroundColor:"red"}}>
       Red
